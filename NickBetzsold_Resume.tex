@@ -1,0 +1,244 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[a4paper,left=3cm,right=3cm,top=1.5cm,bottom=1.5cm]{geometry}
+
+% A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+% Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+%%%
+
+% CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm 
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Nick Betzsold
+	}\par}
+
+\par{\centering
+    {2014 Hawk Ct, West Richland, WA 99353 \\
+     \begin{tabular}{rl}
+     (509) 554-4967 & nick.betzsold@hotmail.com
+     \end{tabular}
+    }\par}
+
+%--------------------SECTIONS-----------------------------------
+% Section: Education
+\section{Education}
+\begin{tabular}{rp{11cm}}	
+  Anticipated 2019 & MSc Predictive Analytics, GPA Here \\
+  & \textsc{Northwestern University} Evanston, IL \\
+  
+  \footnotesize{Relevant Coursework}
+  & \footnotesize{
+  Regression and Multivariate Analysis,
+  Database Systems and Data Preparation,
+  Generalized Linear Models,
+  Practical Machine Learning,
+  Applied Time Series and Forecasting,
+  Advanced Modeling,
+  Project Management
+  }
+\end{tabular}
+
+\begin{tabular}{rp{11cm}}	
+  2016 & BSc Applied Statistics and Analytics, 3.47 \\
+  & \textsc{Brigham Young University} Provo, UT \\
+  & Minor in Business Management \\
+  
+  \footnotesize{Relevant Coursework}
+  & \footnotesize{
+  Business Spreadsheet Analysis,
+  Analytics, 
+  Analysis of Variance, 
+  Predictive Modeling, 
+  Statistical Computing,
+  Accounting,
+  Economics,
+  Finance,
+  Marketing,
+  Business/Technical Communication, 
+  Experimental Design,
+  Probability,
+  Applied R Programming,
+  Applied SAS Programming,
+  Bayesian Analysis
+  }
+\end{tabular}
+
+
+% Section: Skills
+\section{Skills}
+\begin{tabular}{rp{11cm}}
+  R Programming
+  & Statistical analysis, predictive modeling, create data exploration applications, perform simulation studies, produce data visualizations \\ %, retrieve data from internet sources, Clean/manipulate big data, write functions} \\
+  
+  Microsoft Excel
+  & VBA Programming, Charts, databases, tables, arrays, optimization via Solver, macros, names, pivot tables, lookups\\ %, financial formulas importing/cleaning data, power pivot, megaformulas, text, conditional formatting, dates/times, debugging} \\
+  
+  Misc. Computing
+  & Python, SQL, SAS, Microsoft Access, Microsoft Office %, C++}
+\end{tabular}
+
+
+% Section: Work Experience
+\section{Work Experience}
+\begin{tabular}{r|p{11cm}}
+  % PNNL
+  \emph{Nov 2016--Current} & Research Associate, Statistical Modeling and Experimental Design \\
+  & \textsc{Pacific Northwest National Laboratory} Richland, WA \\
+  & \footnotesize{Develop an Excel workbook risk optimization tool to be used to support homeland security programs.} \\
+  & \footnotesize{Develop web-based applications big data analysis and to be distributed later to power grid industry clients enhancing their decision-making capability.} \\
+  & \footnotesize{Evaluate the effectiveness of airborne threat detection tests via simulations in R.} \\ \multicolumn{2}{c}{} \\
+  
+  % Internship
+  \textsc{2016} & Tech Intern, Applied Statistics and Mathematics \\
+  & \textsc{Pacific Northwest National Laboratory} Richland, WA \\
+  & \footnotesize{Develop an Excel workbook cost analysis tool to be used to present funding needs to Congress for the implementation of a national security program.} \\
+  & \footnotesize{Develop a web-based tool to be used by power grid industry clients demonstrating trends and assisting in their understanding of how/when the grid is behaving atypically.} \\
+  & \footnotesize{Evaluate the effectiveness of nuclear warhead detection tests by creating data simulations in R, clearly summarizing the results with Excel spreadsheets.} \\ \multicolumn{2}{c}{} \\
+  
+  % TA
+  \textsc{2015--2016} & Teaching Assistant---Statistics \\
+  & \textsc{Brigham Young University} Provo, UT \\
+  & \footnotesize{Improved students understanding of statistical concepts such as data summarization, experimental design, distributions, and tests of significance. Personally created interactive group learning activities.} \\ \multicolumn{2}{c}{} \\
+\end{tabular}
+
+
+% Section: Volunteer Experience
+\section{Volunteer Experience}
+\begin{tabular}{r|p{11cm}}
+  % BYU Football
+  \textsc{2015} & Football Data Entry \\
+  & \textsc{Brigham Young University} Provo, UT \\
+  & \footnotesize{Determined the "estimated points added" by player and position for the BYU football team. Transferred player evaluations to CSV spreadsheets. Wrote SQL queries to create database tables, upload the player grade spreadsheets into those tables, and assist graduate student analyses.} \\ \multicolumn{2}{c}{} \\
+  
+  % Mission
+  \textsc{2011--2013} & Full-Time Volunteer Representative \\
+  & \textsc{The Church of Jesus Christ of Latter-day Saints} Milan, Italy \\
+  & \footnotesize{Analyzed team statistics to determine training topics and methods for over 100 missionaries, helping to meet their improvement goals. Taught the LDS Christian message and provided service to the Italian people.} \\ \multicolumn{2}{c}{}
+\end{tabular}
+
+
+% Hobbies/Interests
+% \section{Hobbies/Interests}
+% \begin{tabular}{rp{11cm}}
+%   Fitness
+%   & \footnotesize{Designing workout routines, recording and analyzing metrics to help achieve fitness goals, training family and friends, fitness blogging on Instagram, cooking up healthy recipes} \\
+%   
+%   Travel
+%   & \footnotesize{Lived in Europe for two years, looking forward to seeing as many states and countries as possible, can't go wrong with a beach} \\
+%   
+%   Service
+%   & \footnotesize{Performing spontaneous service when a need is seen or when specifically asked to, trying to be like my favorite superheroes I love to see at the movies} \\
+%   
+%   Sports
+%   & \footnotesize{Playing and watching, football, fantasy football, baseball, soccer, basketball} 
+% \end{tabular}
+
+
+% References
+% \section{Professional References}
+% \par{
+%      Mr. Brett Amidan \\
+%      Research Scientist \\
+%      Pacific Northwest National Laboratory \\
+%      902 Battelle Blvd \\
+%      Richland, WA 99354 \\
+%      509-375-3692 \\
+%      b.amidan@pnnl.gov \\
+%      Mr. Amidan is one of my supervisors/mentor at Pacific Northwest National Laboratory. \\
+%      \\
+%      Mr. Robert Brigantic \\
+%      Research Scientist \\
+%      Pacific Northwest National Laboratory \\
+%      902 Battelle Blvd \\
+%      Richland, WA 99354 \\
+%      509-375-3675 \\
+%      robert.brigantic@pnnl.gov \\
+%      Mr. Brigantic is one of my supervisors at Pacific Northwest National Laboratory. \\
+%      \\
+%      Mrs. Lynne Nielsen \\
+%      Associate Teaching Professor, STAT 121 Course Manager \\
+%      Brigham Young University \\
+%      Provo, UT 84602 \\
+%      801-422-9202 \\
+%      nielsen@stat.byu.edu \\
+%      Mrs. Nielsen was my supervisor at Brigham Young University. \\
+%      % \\
+%      % Mr. Zachary Knowlton \\
+%      % Graduate Student \\
+%      % Brigham Young University \\
+%      % Provo, UT 84602 \\
+%      % zacharyknowlton21@gmail.com \\
+%      % Mr. Knowlton was my supervisor during the volunteer football data entry. \\
+%      \\
+%      Mr. Kyler Roney \\
+%      General Manager \\
+%      Marley's Gourmet Sliders \\
+%      555 S Geneva Rd \\
+%      Lindon, UT 84042 \\
+%      801-376-2701 \\
+%      kyler@marleys.com \\
+%      Mr. Roney was my general manager and supervisor at Marley's Gourmet Sliders.
+% \par}
+
+\end{document}
