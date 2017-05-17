@@ -2,5 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-.Rproj
-.pdf
+*.pdf
+*.log
+Git_Resume.Rproj
