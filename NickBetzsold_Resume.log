@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2017.5.17)  17 MAY 2017 11:11
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2017.5.17)  18 MAY 2017 15:43
 entering extended mode
 **./NickBetzsold_Resume.tex
 (NickBetzsold_Resume.tex
@@ -886,24 +886,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
 
 [1
 
-] [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
  (NickBetzsold_Resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 244.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 244.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 243.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 243.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
  ) 
 Here is how much of TeX's memory you used:
  21789 strings out of 427836
  388019 string characters out of 3152499
- 465919 words of memory out of 3000000
+ 464919 words of memory out of 3000000
  25634 multiletter control sequences out of 15000+200000
  4152 words of font info for 34 fonts, out of 3000000 for 9000
  1329 hyphenation exceptions out of 8191
- 35i,8n,66p,10434b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,8n,66p,10434b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on NickBetzsold_Resume.pdf (2 pages).
+Output written on NickBetzsold_Resume.pdf (1 page).
