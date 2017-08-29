@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2017.5.17)  26 JUL 2017 15:45
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2017.5.17)  29 AUG 2017 16:22
 entering extended mode
 **./NickBetzsold_Resume.tex
 (NickBetzsold_Resume.tex
@@ -6,8 +6,8 @@ LaTeX2e <2017-04-15>
 Babel <3.9t> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -521,11 +521,11 @@ LaTeX Info: Redefining \addtolength on input line 81.
 
 
 Package geometry Warning: Over-specification in `h'-direction.
-    `width' (408.0pt) is ignored.
+    `width' (456.0pt) is ignored.
 
 
 Package geometry Warning: Over-specification in `v'-direction.
-    `height' (660.1549pt) is ignored.
+    `height' (737.82019pt) is ignored.
 
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
@@ -767,23 +767,23 @@ LaTeX Font Info:    ... okay on input line 52.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(94.75394pt, 417.39568pt, 85.35826pt)
-* v-part:(T,H,B)=(76.58502pt, 725.7827pt, 42.67912pt)
+* h-part:(L,W,R)=(70.75394pt, 441.39568pt, 85.35826pt)
+* v-part:(T,H,B)=(44.4149pt, 757.95282pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=417.39568pt
-* \textheight=725.7827pt
-* \oddsidemargin=22.48395pt
-* \evensidemargin=22.48395pt
-* \topmargin=-32.68497pt
+* \textwidth=441.39568pt
+* \textheight=757.95282pt
+* \oddsidemargin=-1.51605pt
+* \evensidemargin=-1.51605pt
+* \topmargin=-64.85509pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -878,32 +878,45 @@ LaTeX Info: Redefining \nameref on input line 52.
 
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <12> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 78.
+(Font)              <8> on input line 78.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 78.
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
+Underfull \hbox (badness 1107) in paragraph at lines 100--122
+\TU/Fontin.otf(0)/m/n/12 ing, Economics, Finance, Marketing, Business/Technical
+
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 131--132
+[]\TU/Fontin.otf(0)/m/n/12 Certification—The Institute for Statistics Education
+ at
+ []
 
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (NickBetzsold_Resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 246.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 238.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
- 21789 strings out of 427836
- 388019 string characters out of 3152499
- 464919 words of memory out of 3000000
- 25634 multiletter control sequences out of 15000+200000
- 4152 words of font info for 34 fonts, out of 3000000 for 9000
+ 21807 strings out of 427836
+ 388202 string characters out of 3152499
+ 462941 words of memory out of 3000000
+ 25644 multiletter control sequences out of 15000+200000
+ 6888 words of font info for 43 fonts, out of 3000000 for 9000
  1329 hyphenation exceptions out of 8191
- 35i,8n,66p,10434b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,8n,66p,10434b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on NickBetzsold_Resume.pdf (1 page).
+Output written on NickBetzsold_Resume.pdf (2 pages).
